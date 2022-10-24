@@ -1,0 +1,53 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color:#333;  
+}
+
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* Mobile: width < 740px */
+
+@media screen and (max-width: 46.1875em) {
+    
+}
+
+/* Tablet  width >=740 and with <1024px*/
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* pc: width >= 1024px */
+
+@media screen and (min-width: 64em) {
+    
+}
